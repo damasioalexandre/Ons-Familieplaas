@@ -11,5 +11,14 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js(['resources/assets/js/app.js', 'resources/assets/js/creative.js'], 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+mix.js(
+    [
+        'resources/assets/js/app.js',
+        'resources/assets/js/creative.js',
+        'resources/assets/js/jquery.js',
+        'resources/assets/js/jquery.easing.js',
+        'resources/assets/js/jquery.magnific-popup.js',
+        'resources/assets/js/scrollreveal.js',
+        'resources/assets/js/tether.js'
+    ], 'public/js')
+    .sass('resources/assets/sass/app.scss', 'public/css');

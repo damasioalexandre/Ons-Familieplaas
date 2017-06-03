@@ -22,7 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{--Additional SEO tags--}}
-    @include('layouts.meta')
+    @include('layouts.meta.meta')
     @yield('seo')
 </head>
 <body class="user-body">
