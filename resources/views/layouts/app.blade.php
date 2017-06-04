@@ -30,6 +30,19 @@
     {{--Additional SEO tags--}}
     @include('layouts.meta.meta')
     @yield('seo')
+
+    @yield('styles')
+    <style>
+        .navbar-toggler {
+            z-index: 1;
+        }
+
+        @media (max-width: 576px) {
+            nav > .container {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body class="user-body">
 <div class="wrapper">

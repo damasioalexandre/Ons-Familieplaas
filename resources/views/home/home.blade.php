@@ -4,10 +4,9 @@
     <header class="masthead">
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
+                <h1 id="homeHeading">Ons Familie Plaas</h1>
                 <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download
-                    your template and start going, no strings attached!</p>
+                <p>Your next getaway is with us</p>
                 <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
             </div>
         </div>
