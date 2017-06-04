@@ -12,14 +12,9 @@
     {{-- All the JS, ever --}}
     <script src="{{asset('js/app.js')}}"></script>
 
-    {{--Bootstrap--}}
+    {{-- CSS --}}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
           integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-            crossorigin="anonymous"></script>
-
-    {{-- CSS --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
     {{-- Fonts --}}
@@ -39,12 +34,27 @@
 <body class="user-body">
 <div class="wrapper">
     <body id="page-top">
+    {{-- Nav --}}
     @include('layouts.nav.app-nav')
+
+    {{-- Content --}}
     @yield('content')
+
+    {{-- JS --}}
+    @yield('scripts')
+    {{--Bootstrap core JavaScript--}}
+    <script src="{{asset('js/jquery.min.js')}}"></script>
+    <script src="{{asset('js/tether.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+
+    {{--Plugin JavaScript--}}
+    <script src="{{asset('js/jquery.easing.min.js')}}"></script>
+    <script src="{{asset('js/scrollreveal.min.js')}}"></script>
+    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+
+    {{--Custom scripts for this template--}}
+    <script src="{{asset('js/creative.min.js')}}"></script>
     </body>
 </div>
-
-{{-- JS --}}
-@yield('scripts')
 </body>
 </html>
