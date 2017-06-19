@@ -78,12 +78,7 @@
                         <img class="img-fluid" src="{{asset('images/portfolio/thumbnails/1.jpg')}}" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+
                             </div>
                         </div>
                     </a>
@@ -93,12 +88,7 @@
                         <img class="img-fluid" src="{{asset('images/portfolio/thumbnails/2.jpg')}}" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+
                             </div>
                         </div>
                     </a>
@@ -108,12 +98,7 @@
                         <img class="img-fluid" src="{{asset('images/portfolio/thumbnails/3.jpg')}}" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+
                             </div>
                         </div>
                     </a>
@@ -123,12 +108,7 @@
                         <img class="img-fluid" src="{{asset('images/portfolio/thumbnails/4.jpg')}}" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+
                             </div>
                         </div>
                     </a>
@@ -138,12 +118,7 @@
                         <img class="img-fluid" src="{{asset('images/portfolio/thumbnails/5.jpg')}}" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+
                             </div>
                         </div>
                     </a>
@@ -153,12 +128,7 @@
                         <img class="img-fluid" src="{{asset('images/portfolio/thumbnails/6.jpg')}}" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
+
                             </div>
                         </div>
                     </a>

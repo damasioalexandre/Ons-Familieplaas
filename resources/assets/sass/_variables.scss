@@ -2,8 +2,11 @@
 
 // Gray and Brand Colors for use across theme
 
-$theme-primary: rgb(43, 168, 255);
-//$theme-primary: rgba(52, 188, 57, 0.99);
+//$theme-primary: rgb(43, 168, 255);
+//$theme-primary: rgb(124, 135, 75);
+
+$theme-primary: #6b8aa6;
+
 
 $gray-base:        #000 !default;
 $gray-darker:	   lighten($gray-base, 13.5%) !default; // #222
