@@ -43,9 +43,9 @@
     }
     @media (min-width: 992px) {
         border-color: fade-out(white, .7);
-        background-color: transparent;
+        background-color: white;
         .navbar-brand {
-            color: fade-out(white, .3);
+            color: $theme-primary;
             &:hover,
             &:focus {
                 color: white;
@@ -53,7 +53,7 @@
         }
         .navbar-nav > li.nav-item > a.nav-link,
         .navbar-nav > li.nav-item > a.nav-link:focus {
-            color: fade-out(white, .3);
+            color: $theme-primary;
             &:hover {
                 color: white;
             }

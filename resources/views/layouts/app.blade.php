@@ -13,8 +13,6 @@
     <script src="{{asset('js/app.js')}}"></script>
 
     {{-- CSS --}}
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
     {{-- Fonts --}}
