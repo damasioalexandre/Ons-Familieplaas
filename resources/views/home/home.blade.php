@@ -4,7 +4,7 @@
     <header class="masthead">
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Ons Familie Plaas</h1>
+                <h1 id="homeHeading">Ons FamiliePlaas</h1>
                 <hr>
                 <p>Your next getaway is with us</p>
                 <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
@@ -16,12 +16,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 text-center">
-                    <h2 class="section-heading text-white">We've got what you need!</h2>
+                    <h2 class="section-heading text-white">About Us</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running
-                        in no time! All of the templates and themes on Start Bootstrap are open source, free to
-                        download, and easy to use. No strings attached!</p>
-                    <a class="btn btn-default btn-xl sr-button" href="#services">Get Started!</a>
+                    <p class="text-faded">Ons FamiliePlaas is a self-catering guest farm located 20km from Nelspruit. It is a 100 hectare piece of land overlooking the Barberton valley and is situated in the Northern summit of the Drakensberg Mountains.</p>
+                    <a class="btn btn-default btn-xl sr-button" href="#services">Our Services</a>
                 </div>
             </div>
         </div>
@@ -55,7 +53,7 @@
                         <div class="service-box">
                             <i class="fa fa-4x fa-bicycle text-primary sr-icons"></i>
                             <h3>Activities</h3>
-                            <p class="text-muted">See what there is to do near by</p>
+                            <p class="text-muted">See what there is to do nearby</p>
                         </div>
                     </a>
                 </div>
@@ -137,7 +135,7 @@
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <h2 class="section-heading">Let's Get In Touch!</h2>
                     <hr class="primary">
-                    <p>Ready for your get away experience? Book your accommodation by calling or emailing us</p>
+                    <p>Ready for your getaway experience? Book your accommodation by calling or emailing us</p>
                 </div>
                 <div class="col-lg-4 offset-lg-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>

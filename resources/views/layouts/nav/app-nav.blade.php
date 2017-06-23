@@ -4,7 +4,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="container">
-        <a class="navbar-brand" href="#page-top">Ons Familie Plaas</a>
+        <a class="navbar-brand" href="#page-top">Ons FamiliePlaas</a>
         <div class="collapse navbar-collapse" id="navbarExample">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
