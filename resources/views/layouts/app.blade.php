@@ -42,31 +42,28 @@
         }
     </style>
 </head>
-<body class="user-body">
-<div class="wrapper">
-    <body id="page-top">
-    {{-- Nav --}}
-    @include('layouts.nav.app-nav')
 
-    {{-- Content --}}
-    @yield('content')
+<body id="page-top">
+{{-- Nav --}}
+@include('layouts.nav.app-nav')
 
-    {{-- JS --}}
-    @yield('scripts')
+{{-- Content --}}
+@yield('content')
 
-    {{--Bootstrap core JavaScript--}}
-    <script src="{{asset('js/jquery.min.js')}}"></script>
-    <script src="{{asset('js/tether.min.js')}}"></script>
-    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+{{-- JS --}}
+@yield('scripts')
 
-    {{--Plugin JavaScript--}}
-    <script src="{{asset('js/jquery.easing.min.js')}}"></script>
-    <script src="{{asset('js/scrollreveal.min.js')}}"></script>
-    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+{{--Bootstrap core JavaScript--}}
+<script src="{{asset('js/jquery.min.js')}}"></script>
+<script src="{{asset('js/tether.min.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
 
-    {{--Custom scripts for this template--}}
-    <script src="{{asset('js/creative.min.js')}}"></script>
-    </body>
-</div>
+{{--Plugin JavaScript--}}
+<script src="{{asset('js/jquery.easing.min.js')}}"></script>
+<script src="{{asset('js/scrollreveal.min.js')}}"></script>
+<script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+
+{{--Custom scripts for this template--}}
+<script src="{{asset('js/creative.min.js')}}"></script>
 </body>
 </html>
