@@ -30,17 +30,6 @@
     @yield('seo')
 
     @yield('styles')
-    <style>
-        .navbar-toggler {
-            z-index: 1;
-        }
-
-        @media (max-width: 576px) {
-            nav > .container {
-                width: 100%;
-            }
-        }
-    </style>
 </head>
 
 <body id="page-top">
