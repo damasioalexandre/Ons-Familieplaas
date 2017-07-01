@@ -5,7 +5,6 @@
         <div class="header-content">
             <div class="header-content-inner">
                 <h1 id="homeHeading">Ons FamiliePlaas</h1>
-                <hr>
                 <p>Your next getaway is with us</p>
                 <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
             </div>

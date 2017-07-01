@@ -5,7 +5,7 @@
         @if(isset($title))
             {{$title}}
         @else
-            Ons Familie Plaas
+            Ons FamiliePlaas
         @endif
     </title>
 
