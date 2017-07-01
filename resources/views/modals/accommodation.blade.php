@@ -1,11 +1,14 @@
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+<div class="modal fade accommodation-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
      aria-hidden="true">
-    <div class="modal-dialog modal-lg service-modal">
-        <div class="modal-header service-modal-header">
-            <p>Accommodation</p>
+    <div class="modal-dialog modal-lg info-modal">
+        <div class="modal-header info-modal-header">
+            <h2>Accommodation</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
         </div>
 
-        <div class="modal-body service-modal-body">
+        <div class="modal-body info-modal-body">
             <div class="row">
                 <div class="col-md-6 col-lg-6">
                     <h3>Boonste Huis</h3>

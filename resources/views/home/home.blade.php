@@ -39,7 +39,7 @@
                 <div class="col-md-2 col-lg-2"></div>
 
                 <div class="col-lg-4 col-md-4 text-center service-wrapper">
-                    <a data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <a data-toggle="modal" data-target=".accommodation-modal">
                         <div class="service-box">
                             <i class="fa fa-4x fa-home text-primary sr-icons"></i>
                             <h3>Accommodation</h3>
@@ -49,7 +49,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-4 text-center service-wrapper">
-                    <a data-toggle="modal" data-target=".bd-example-modal-lg">
+                    <a data-toggle="modal" data-target=".activities-modal">
                         <div class="service-box">
                             <i class="fa fa-4x fa-bicycle text-primary sr-icons"></i>
                             <h3>Activities</h3>
@@ -60,6 +60,7 @@
             </div>
         </div>
         @include('modals.accommodation')
+        @include('modals.activities')
     </section>
 
     <section class="no-padding" id="portfolio">
