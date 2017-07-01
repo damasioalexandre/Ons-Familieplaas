@@ -48,14 +48,14 @@
             color: $theme-primary;
             &:hover,
             &:focus {
-                color: white;
+                color: fade-out($theme-primary, .3);
             }
         }
         .navbar-nav > li.nav-item > a.nav-link,
         .navbar-nav > li.nav-item > a.nav-link:focus {
             color: $theme-primary;
             &:hover {
-                color: white;
+                color: fade-out($theme-primary, .3);
             }
         }
         &.navbar-shrink {
@@ -66,7 +66,7 @@
                 color: $theme-primary;
                 &:hover,
                 &:focus {
-                    color: darken($theme-primary, .1);
+                    color: fade-out($theme-primary, .3);
                 }
             }
             .navbar-nav > li.nav-item > a.nav-link,
