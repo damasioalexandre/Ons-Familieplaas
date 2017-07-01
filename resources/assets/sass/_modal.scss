@@ -4,8 +4,14 @@
   }
   .info-modal-header {
     background-color: white;
+    .close {
+      color: $theme-primary;
+    }
   }
   .info-modal-body {
+    background-color: white;
+  }
+  .info-modal-footer {
     background-color: white;
   }
 }

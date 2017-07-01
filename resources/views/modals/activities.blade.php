@@ -16,5 +16,9 @@
                 <li>Bring along quad bikes and off road bikes! (Please notify us beforehand)</li>
             </ul>
         </div>
+
+        <div class="modal-footer info-modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
     </div>
 </div>
