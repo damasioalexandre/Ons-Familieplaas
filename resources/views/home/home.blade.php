@@ -18,7 +18,7 @@
                 <div class="col-lg-8 offset-lg-2 text-center">
                     <h2 class="section-heading text-white">About Us</h2>
                     <hr class="light">
-                    <p class="text-faded">Ons FamiliePlaas is a self-catering guest farm located 20km from Nelspruit. It is a 100 hectare piece of land overlooking the Barberton valley and is situated in the Northern summit of the Drakensberg Mountains.</p>
+                    <p class="text-faded">Ons FamiliePlaas accommodation is a self-catering guest farm located 20km from Nelspruit. It is a 100 hectare piece of land overlooking the Barberton valley and is situated in the Northern summit of the Drakensberg Mountains.</p>
                     <a class="btn btn-default btn-xl sr-button" href="#services">Our Services</a>
                 </div>
             </div>
